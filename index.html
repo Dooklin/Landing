@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta name="author" content="Dooklin">
+  <title>Welcome Home</title>
+</head>
+<body>
+  <div class="decor-cont">
+    <div class="speed-setting"></div>
+    <div class="shadowed-x"><<<<<<<<<</div>
+    <div class="speed-setting"></div>
+  </div>
+  <main>
+
+    <nav>
+      <span id="option1" class="option shadowed-text">Manools</span>
+      <span id="option2" class="option shadowed-text">Useful Links</span>
+      <span id="option3" class="option shadowed-text">Bangers</span>
+    </nav>
+
+    <div id ="content">
+      <div id="option1-content" class="hidden option-content">
+        <div id="select-arrow1" class="select-arrow">></div>
+        <div class="option1 option-small shadowed-text" data-index="0">Bol</div>
+        <div class="option1 option-small shadowed-text" data-index="1">Groosh</div>
+        <div class="option1 option-small shadowed-text" data-index="2">Oliva</div>
+        <div class="option1 option-small shadowed-text" data-index="3">Nagom</div>
+
+      </div>
+
+      <div id="option2-content" class="hidden option-content">
+        <div id="select-arrow2" class="select-arrow">></div>
+        <div class="option2 option-small shadowed-text" data-link="usual" data-index="0">Usual</div>
+        <div class="option2 option-small shadowed-text" data-link="useful" data-index="1">Useful</div>
+        <div class="option2 option-small shadowed-text" data-link="tools" data-index="2">Tools</div>
+        <div class="option2 option-small shadowed-text" data-link="dnd" data-index="3">DnD</div>
+      </div>
+
+      <div id="option3-content" class="hidden option-content">
+        <div id="select-arrow3" class="select-arrow">></div>
+        <div class="option3 option-small shadowed-text" data-artist="kanye" data-index="0">Kanye</div>
+        <div class="option3 option-small shadowed-text" data-artist="chill" data-index="1">Chill</div>
+        <div class="option3 option-small shadowed-text" data-artist="doom" data-index="2">MF DOOM</div>
+        <div class="option3 option-small shadowed-text" data-artist="nujabes" data-index="3">Nujabes</div>
+      </div>
+
+      <div id="albums">
+
+      </div>
+
+      <div id="links">
+
+      </div>
+    </div>
+
+    <div id="song-cont">
+        
+    </div>
+
+    <footer class="pixelated">
+      <img src="song-trav.png" alt="prev-song" class="pixelated flipped" id="back">
+      <div class="progress-bar-cont">
+        <div id="progress-bar1"></div>
+      </div>
+      <img src="stop.png" alt="pause/go" class="pixelated" id="pause">
+
+      <div class="progress-bar-cont">
+        <div id="progress-bar2"></div>
+      </div>
+      
+      <img src="song-trav.png" alt="next-song" class="pixelated" id="forward">
+    </footer>
+
+    <input id="volume-control" type="range" min="0" max="1" step="0.01" value="0.25" aria-label="Volume control">
+  
+  </main> 
+  <div class="decor-cont">
+    <div onclick=catHello(100) id="sp" class="shadowed-x"><<<<<<<<<</div>
+  </div>
+  <script src="selectarrow.js"></script>
+  <script src="title-cat.js"></script>
+  <script src="music.js"></script>
+  <script src="nav-selections.js"></script>
+</body>
+</html>
