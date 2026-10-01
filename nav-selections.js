@@ -227,7 +227,7 @@ back.addEventListener("click", function(){
 const links = {
   usual: ["Search", "Youtube"],
   useful: ["Excalidraw", "nuffin"],
-  tools: ["RemoveBG"],
+  tools: ["RemoveBG", "Photopea"],
   dnd: ["Big PDF"]
 };
 
@@ -236,6 +236,7 @@ const link_URLS = {
   "Youtube": "https://www.youtube.com/",
   "Excalidraw": "https://excalidraw.com/",
   "RemoveBG": "https://www.canva.com/features/background-remover/",
+  "Photopea": "https://www.photopea.com/",
   "Big PDF": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.pdf"
 };
 
